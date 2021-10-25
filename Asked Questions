@@ -1,0 +1,18 @@
+1.virtual dom vs shadow dom
+Shadow DOM is a tool used to build component-based apps and websites. 
+Shadow DOM comes in small pieces, and it doesn’t represent the whole Document Object Model.
+for example video tag , we use only video tag but it shows play/pause button , 
+volume button, dowload option.
+
+2. What is a stub in Node.js ?
+A small program routine that substitutes for a longer program 
+which is possible to be loaded later or that is remotely located.
+
+Features of stub:
+
+Stubs can be either anonymous.
+Stubs can be wrapped into existing functions. 
+When we wrap a stub into the existing function the original function is not called.
+Stubs are functions or programs that affect the behavior of components or modules.
+Stubs are dummy objects for testing.
+Stubs implement a pre-programmed response.
