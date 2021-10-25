@@ -1,0 +1,50 @@
+============================ MONGO DB ==============================================================
+1. What is “Namespace” in MongoDB?
+
+MongoDB stores BSON (Binary Interchange and Structure Object Notation) objects in the collection. 
+The concatenation of the collection name and database name is called a namespace.
+
+2. While creating Schema in MongoDB what are the points need to be taken in consideration?
+
+Points need to be taken in consideration are
+
+Design your schema according to user requirements
+Combine objects into one document if you use them together. Otherwise, separate them
+Do joins while write, and not when it is on read
+For most frequent use cases optimize your schema
+Do complex aggregation in the schema
+
+3. What is the syntax to create a collection and to drop a collection in MongoDB?
+Syntax to create collection in MongoDB is db.createCollection(name,options)
+Syntax to drop collection in MongoDB is db.collection.drop()
+9) Explain what is the role of profiler in MongoDB?
+
+MongoDB database profiler shows performance characteristics of each operation against the database. 
+You can find queries using the profiler that are slower than they should be.
+
+4. To do safe backups what is the feature in MongoDB that you can use?
+Journaling is the feature in MongoDB that you can use to do safe backups.
+
+5 Mention what is the command syntax for inserting a document?
+
+For inserting a document command syntax is database.collection.insert (document).
+
+6. What is the command syntax that tells you whether you are on the master server or not? 
+And how many master does MongoDB allow?
+
+Command syntax Db.isMaster() will tell you whether you are on the master server or not.
+MongoDB allows only one master server, while couchDB allows multiple masters.
+
+7. Explain what are indexes in MongoDB?
+
+Indexes are special structures in MongoDB, 
+which stores a small portion of the data set in an easy to traverse form.
+Ordered by the value of the field specified in the index, 
+the index stores the value of a specific field or set of fields.
+
+8. Mention what is the basic syntax to use index in MongoDB?
+
+The basic syntax to use in MongoDB is >db.COLLECTION_NAME.ensureIndex ( {KEY:1} ). 
+In here the key is the the name of the COLUMN (or KEY:VALUE pair) which is present in the documents.
+
+9. 
