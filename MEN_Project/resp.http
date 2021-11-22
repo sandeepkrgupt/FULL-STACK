@@ -1,0 +1,7 @@
+GET http://localhost:9000/data
+
+###
+POST http://localhost:9000/data, {
+    name: "aq",
+    company: "bq"
+}
