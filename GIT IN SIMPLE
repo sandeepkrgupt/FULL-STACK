@@ -1,0 +1,31 @@
+ C:\Axis_BitBucket\portal-axis-dev> npm install --legacy-peer-deps
+ C:\Axis_BitBucket\portal-axis-dev> git checkout development  
+ 
+C:\Axis_BitBucket\portal-axis-dev> git pull origin development
+
+C:\Axis_BitBucket\portal-axis-dev> git checkout -b sandeeep_observations_2
+
+C:\Axis_BitBucket\portal-axis-dev> git status
+
+C:\Axis_BitBucket\portal-axis-dev> git diff .\public\config.js
+
+C:\Axis_BitBucket\portal-axis-dev> git add .   
+
+git commit -m "FIX for Issue 68, 69, 97, 99, 110, 118 From FIDB Neo XL and 35,36 from UAT XL"
+
+C:\Axis_BitBucket\portal-axis-dev> git push origin sandeeep_observations_2
+
+C:\Axis_BitBucket\portal-axis-dev> git checkout development
+
+C:\Axis_BitBucket\portal-axis-dev> git merge sandeeep_observations_2
+
+C:\Axis_BitBucket\portal-axis-dev> git status
+
+C:\Axis_BitBucket\portal-axis-dev> Git push origin development
+
+
+----------------------------------------------------------------
+C:\Axis_BitBucket\portal-axis-dev> git stash
+C:\Axis_BitBucket\portal-axis-dev> git stash apply
+
+
