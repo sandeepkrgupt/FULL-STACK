@@ -1,3 +1,13 @@
+> git init
+
+> git add .
+
+> git commit -m "first commit"
+
+> git remote add origin repo_path
+
+> git push origin master.
+ -------------------------------Axis FIDB----------------------------------
  C:\Axis_BitBucket\portal-axis-dev> npm install --legacy-peer-deps
  C:\Axis_BitBucket\portal-axis-dev> git checkout development  
  
