@@ -4,7 +4,7 @@
 
 > git commit -m "first commit"
 
-> git remote add origin repo_path
+> git remote add origin repo_path (Take Https path not SSH path)
 
 > git push origin master.
  -------------------------------Axis FIDB----------------------------------
